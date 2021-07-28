@@ -1,0 +1,68 @@
+nav {
+  height: 50px;
+  padding: 0px 20px;
+  color: #ddd;
+  background-color: #333;
+  border-bottom: 1px solid black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+nav h1 {
+  font-size: 2rem;
+}
+
+nav .inputs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+nav .inputs .input-group {
+  margin: 0px 10px;
+}
+
+nav .inputs .input-group label {
+  margin-right: 5px;
+  font-size: 1.2rem;
+}
+
+nav a {
+  font-size: 1.2rem;
+  text-decoration: none;
+  color: #ddd;
+}
+
+nav a:hover {
+  color: #ffaa00;
+}
+
+nav .btn-icon {
+  font-size: 2rem;
+}
+
+nav .btn-icon:hover {
+  color: #ffaa00;
+}
+/*# sourceMappingURL=Navigation.css.map */
