@@ -4,7 +4,7 @@ import FormatDate from './FormatDate';
 
 function Section(props) {
 
-    const nameJSX = props.section.title ? (props.section.website ? (<a href={props.section.website} target="_blank" rel="noreferrer">{props.section.title}</a>) : <span>{props.section.title}</span>) : null;
+    const nameJSX = props.section.title ? (props.section.url ? (<a href={props.section.url} target="_blank" rel="noreferrer">{props.section.title}</a>) : <span>{props.section.title}</span>) : null;
     
     const dateString = FormatDate(props.section);
 
