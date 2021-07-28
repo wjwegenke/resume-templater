@@ -1,0 +1,245 @@
+.template {
+  margin: 0;
+  color: #444;
+  border-top: 10px solid #077;
+}
+
+.template a {
+  color: #444;
+  text-decoration: none;
+}
+
+.template a:hover {
+  color: #077;
+}
+
+.template header {
+  height: 1.7in;
+  padding: 0px 50px;
+}
+
+.template header .header {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.template header .header .header-label {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.template header .header .header-label .header-name {
+  font-size: 3.5rem;
+  font-weight: bold;
+}
+
+.template header .header .header-label .header-position {
+  font-size: 1.5rem;
+  font-weight: lighter;
+  color: #595959;
+}
+
+.template header .header .header-image {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.template header .header .header-image img {
+  border-radius: 50%;
+  overflow: hidden;
+  height: 132px;
+  width: 132px;
+  border: 2px solid #077;
+}
+
+.template .body {
+  padding: 0px 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.template .body aside {
+  width: 2.5in;
+  margin-right: 20px;
+}
+
+.template .body main {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.template section {
+  margin-bottom: 20px;
+}
+
+.template section .sec-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+}
+
+.template section .sec-header .sec-icon {
+  font-size: 1.5rem;
+  margin-right: 5px;
+}
+
+.template section .sec-header h1 {
+  font-size: 1.2rem;
+  font-weight: lighter;
+  color: #595959;
+}
+
+.template section .sec-header:after {
+  content: "";
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  width: 70px;
+  border-bottom: 1px solid #077;
+}
+
+.template section .icon {
+  color: #077;
+}
+
+.template section .item {
+  margin: 8px 0px;
+}
+
+.template section .item .item-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.template section .item .item-header .item-label {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.template section .item .item-header .item-label .item-name {
+  font-weight: bold;
+}
+
+.template section .item .item-header .item-label .item-position {
+  font-size: 0.9rem;
+  font-weight: lighter;
+  color: #595959;
+}
+
+.template section .item .item-header .item-date {
+  font-size: 0.9rem;
+  font-weight: lighter;
+  color: #595959;
+}
+
+.template section .item .item-summary {
+  font-size: 1rem;
+}
+
+.template section .item .edu-gpa {
+  font-size: 0.9rem;
+  font-weight: lighter;
+  color: #595959;
+}
+
+.template section .item .about-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.template section .item .about-item .about-icon {
+  color: #036;
+  margin: 5px;
+  font-size: 1.2rem;
+}
+
+.template section .item .about-item .about-name {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.template section .skills {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.template section .skills .skill {
+  font-size: 0.8rem;
+  font-weight: bold;
+  padding: 2px 10px;
+  margin: 2px;
+  border-radius: 100px;
+  color: #ddd;
+  background-color: #036;
+}
+
+@media print {
+  .template section {
+    page-break-inside: avoid;
+  }
+}
+/*# sourceMappingURL=Template.css.map */
