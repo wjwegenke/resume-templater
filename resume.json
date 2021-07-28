@@ -57,7 +57,7 @@
                 {
                     "title": "SD Bureau of Information and Telecommunications",
                     "subtitle": "Software Engineer",
-                    "website": "https://bit.sd.gov/",
+                    "url": "https://bit.sd.gov/",
                     "location": "Sioux Falls, SD",
                     "startDate": "2017-05-30",
                     "summary": [
@@ -67,7 +67,7 @@
                 {
                     "title": "SD Bureau of Information and Telecommunications",
                     "subtitle": "Software Engineer Intern",
-                    "website": "https://bit.sd.gov/",
+                    "url": "https://bit.sd.gov/",
                     "location": "Pierre, SD",
                     "startDate": "2016-05-15",
                     "endDate": "2017-08-15",
