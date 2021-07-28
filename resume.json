@@ -1,161 +1,250 @@
 {
-  "basics": {
-    "name": "Warren Wegenke",
-    "label": "Software Engineer",
-    "summary": "I’m a full stack software engineer/web developer with 4+ years of experience. With a strong analytical mindset and a desire to learn continuously, I'm excited to solve new problems and to bring my skills and knowledge of computer science to Omnitech!",
-    "image": "https://avatars.githubusercontent.com/u/11546713?s=400&u=e7c823ee70f2d1a7fe4152a4cb92505fe47b16c9&v=4",
-    "email": "warren.wegenke@gmail.com",
-    "location": {
-      "city": "Sioux Falls",
-      "stateCode": "SD",
-      "postalCode": "57108"
+    "personal": {
+        "name": "Warren Wegenke",
+        "title": "Software Engineer",
+        "image": "https://avatars.githubusercontent.com/u/11546713?s=400&u=e7c823ee70f2d1a7fe4152a4cb92505fe47b16c9&v=4",
+        "email": "warren.wegenke@gmail.com",
+        "location": {
+          "city": "Sioux Falls",
+          "stateCode": "SD",
+          "postalCode": "57108"
+        },
+        "profiles": [
+          {
+            "name": "Warren Wegenke",
+            "url": "https://www.linkedin.com/in/warrenwegenke",
+            "tooltip": "LinkedIn",
+            "icon": {
+                "style": "fab",
+                "name": "linkedin"
+            }
+          },
+          {
+            "url": "https://github.com/wjwegenke",
+            "name": "wjwegenke",
+            "tooltip": "GitHub",
+            "icon": {
+                "style": "fab",
+                "name": "github"
+            }
+          }
+        ]
     },
-    "profiles": [
-      {
-        "username": "Warren Wegenke",
-        "url": "https://www.linkedin.com/in/warrenwegenke",
-        "network": "linkedin"
-      },
-      {
-        "url": "https://github.com/wjwegenke",
-        "username": "wjwegenke",
-        "network": "github"
-      }
-    ]
-  },
-  "work": [
-    {
-      "summary": "I develop web and desktop applications for various South Dakota state agencies. I am heavily involved with every step of the software development life cycle from requirements gathering to database design to publishing. I am the primary developer responsible for maintaining over a dozen systems for the SD DANR.",
-      "website": "https://bit.sd.gov/",
-      "name": "SD Bureau of Information and Telecommunications",
-      "location": "Sioux Falls, SD",
-      "position": "Software Engineer",
-      "startDate": "2020-05-30"
-    },
-    {
-      "summary": "As an intern I developed a web application to replace the South Dakota Department of Agriculture’s grain checkoff remittance paper process. I got involved with every aspect of the software development life cycle and was able to incorporate Elavon’s Converge payment system.",
-      "website": "https://bit.sd.gov/",
-      "name": "SD Bureau of Information and Telecommunications",
-      "location": "Pierre, SD",
-      "position": "Software Engineer Intern",
-      "startDate": "2016-05-15",
-      "endDate": "2020-08-15"
-    }
-  ],
-  "education": [
-    {
-      "endDate": "2017-05-06",
-      "startDate": "2012-08-20",
-      "studies": [
+    "categories": [
         {
-            "studyType": "Bachelors",
-            "area": "Computer Science"
+            "title": "Summary",
+            "importance": "major",
+            "icon": {
+                "style": "fas",
+                "name": "user"
+            },
+            "sections": [
+                {
+                    "summary": [
+                        "I’m a full stack software engineer/web developer with 4+ years of experience. With a strong analytical mindset and a desire to learn continuously, I'm excited to solve new problems and to bring my skills and knowledge of computer science to Omnitech!"
+                    ]
+                }
+            ]
         },
         {
-            "studyType": "Bachelors",
-            "area": "Mathematics for Information Systems"
+            "title": "Experience",
+            "importance": "major",
+            "icon": {
+                "style": "fas",
+                "name": "briefcase"
+            },
+            "sections": [
+                {
+                    "title": "SD Bureau of Information and Telecommunications",
+                    "subtitle": "Software Engineer",
+                    "website": "https://bit.sd.gov/",
+                    "location": "Sioux Falls, SD",
+                    "startDate": "2017-05-30",
+                    "summary": [
+                        "I develop web and desktop applications for various South Dakota state agencies. I am heavily involved with every step of the software development life cycle from requirements gathering to database design to publishing. I am the primary developer responsible for maintaining over a dozen systems for the SD DANR."
+                    ]
+                },
+                {
+                    "title": "SD Bureau of Information and Telecommunications",
+                    "subtitle": "Software Engineer Intern",
+                    "website": "https://bit.sd.gov/",
+                    "location": "Pierre, SD",
+                    "startDate": "2016-05-15",
+                    "endDate": "2017-08-15",
+                    "summary": [
+                        "As an intern I developed a web application to replace the South Dakota Department of Agriculture’s grain checkoff remittance paper process. I got involved with every aspect of the software development life cycle and was able to incorporate Elavon’s Converge payment system."
+                    ]
+                }
+            ]
         },
         {
-            "studyType": "Minor",
-            "area": "Web Development"
+            "title": "Education",
+            "importance": "major",
+            "icon": {
+                "style": "fas",
+                "name": "user-graduate"
+            },
+            "sections": [
+                {
+                    "title": "Dakota State University",
+                    "location": "Sioux Falls, SD",
+                    "startDate": "2012-08-20",
+                    "endDate": "2017-05-6",
+                    "summary": [
+                        "Bachelors in Computer Science",
+                        "Bachelors in Mathematics for Information Systems",
+                        "Minor in Web Development"
+                    ],
+                    "subsummary": "GPA: 4.00"
+                }
+            ]
+        },
+        {
+            "title": "Volunteer",
+            "importance": "major",
+            "icon": {
+                "style": "fas",
+                "name": "hands-helping"
+            },
+            "sections": [
+                {
+                    "title": "Pierre Oahe FC Soccer",
+                    "subtitle": "Coach",
+                    "location": "Pierre, SD",
+                    "startDate": "2017-11-01",
+                    "endDate": "2019-01-31",
+                    "summary": [
+                        "Coached indoor and outdoor soccer for 14 to 18-year-old boys."
+                    ]
+                },
+                {
+                    "title": "Dakota State University",
+                    "subtitle": "GO! Leader",
+                    "location": "Madison, SD",
+                    "startDate": "2014-08-01",
+                    "endDate": "2014-09-30",
+                    "summary": [
+                        "Served as a new student orientation leader. Helped new students adapt to the university."
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Accomplishments",
+            "importance": "major",
+            "icon": {
+                "style": "fas",
+                "name": "trophy"
+            },
+            "sections": [
+                {
+                    "title": "Scrum Master Certified",
+                    "subtitle": "SCRUMStudy",
+                    "date": "2021-05-10"
+                },
+                {
+                  "title": "Cyber Corp. Scholarship",
+                  "subtitle": "DSU",
+                  "startDate": "2014-08-20",
+                  "endDate": "2017-05-06"
+                },
+                {
+                  "title": "Phi Eta Sigma Honor society",
+                  "subtitle": "DSU",
+                  "startDate": "2013-08-20",
+                  "endDate": "2017-05-06"
+                },
+                {
+                  "title": "Merit Champion Scholarship",
+                  "subtitle": "DSU",
+                  "startDate": "2012-08-20",
+                  "endDate": "2017-05-06"
+                },
+                {
+                  "title": "DSU Presidents List",
+                  "subtitle": "DSU",
+                  "startDate": "2012-08-20",
+                  "endDate": "2017-05-06"
+                }
+            ]
+        },
+        {
+            "title": "Languages",
+            "importance": "minor",
+            "icon": {
+                "style": "fas",
+                "name": "code"
+            },
+            "sections": [
+                {
+                    "type": "bunch",
+                    "bunch": [
+                        "Javascript",
+                        "JSON",
+                        "HTML / JSX",
+                        "SCSS / CSS",
+                        "C#",
+                        "C++",
+                        "T-SQL",
+                        "Visual Basic",
+                        "Java",
+                        "Python"
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Technologies",
+            "importance": "minor",
+            "icon": {
+                "style": "fas",
+                "name": "laptop-code"
+            },
+            "sections": [
+                {
+                    "type": "bunch",
+                    "bunch": [
+                        ".NET",
+                        ".NET Core",
+                        "MVC",
+                        "REST Services",
+                        "SQL Server",
+                        "Entity Framework",
+                        "Entity Framework Core",
+                        "Web Forms",
+                        "WPF",
+                        "ESRI ArcGIS",
+                        "Azure",
+                        "Git",
+                        "React",
+                        "Node.js"
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Interests",
+            "importance": "minor",
+            "icon": {
+                "style": "fas",
+                "name": "heart"
+            },
+            "sections": [
+                {
+                    "type": "list",
+                    "list": [
+                        {
+                            "name": "Soccer"
+                        },
+                        {
+                            "name": "Bouldering"
+                        },
+                        {
+                            "name": "Video Games"
+                        }
+                    ]
+                }
+            ]
         }
-      ],
-      "institution": "Dakota State University",
-      "score": "4.00"
-    }
-  ],
-  "volunteer": [
-    {
-      "organization": "Pierre Oahe FC Soccer",
-      "position": "Coach",
-      "startDate": "2017-11-01",
-      "endDate": "2019-01-31",
-      "summary": "Coached indoor and outdoor soccer for 14 to 18-year-old boys."
-    },
-    {
-      "organization": "Dakota State University",
-      "position": "GO! Leader",
-      "startDate": "2014-08-01",
-      "endDate": "2014-09-30",
-      "summary": "Served as a new student orientation leader. Helped new students adapt to the university."
-    }
-  ],
-  "skills": [
-    {
-      "keywords": [
-        "Javascript",
-        "JSON",
-        "HTML / JSX",
-        "SCSS / CSS",
-        "C#",
-        "C++",
-        "T-SQL",
-        "Visual Basic",
-        "Java",
-        "Python"
-      ],
-      "name": "Languages"
-    },
-    {
-      "keywords": [
-	    ".NET",
-		".NET Core",
-		"MVC",
-		"REST Services",
-		"SQL Server",
-		"Entity Framework",
-		"Entity Framework Core",
-		"Web Forms",
-		"WPF",
-		"ESRI ArcGIS",
-		"Azure",
-		"Git",
-		"React",
-		"Node.js"
-	  ],
-      "name": "Technologies"
-    }
-  ],
-  "awards": [
-    {
-      "title": "Scrum Master Certified",
-      "awarder": "SCRUMStudy",
-      "date": "2021-05-10"
-    },
-    {
-      "title": "Cyber Corp. Scholarship",
-      "awarder": "DSU",
-      "startDate": "2014-08-20",
-      "endDate": "2017-05-06"
-    },
-    {
-      "title": "Phi Eta Sigma Honor society",
-      "awarder": "DSU",
-      "startDate": "2013-08-20",
-      "endDate": "2017-05-06"
-    },
-    {
-      "title": "Merit Champion Scholarship",
-      "awarder": "DSU",
-      "startDate": "2012-08-20",
-      "endDate": "2017-05-06"
-    },
-    {
-      "title": "DSU Presidents List",
-      "awarder": "DSU",
-      "startDate": "2012-08-20",
-      "endDate": "2017-05-06"
-    }
-  ],
-  "interests": [
-    {
-      "name": "Soccer"
-    },
-    {
-      "name": "Bouldering"
-    },
-    {
-      "name": "Video Games"
-    }
-  ]
+    ]
 }
