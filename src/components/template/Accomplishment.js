@@ -1,24 +1,11 @@
 import React from 'react';
+import FormatDate from './FormatDate';
 
 function Accomplishment(props) {
 
     const nameJSX = props.accomplishment.website ? (<a href={props.accomplishment.website}>{props.accomplishment.title}</a>) : <span>{props.accomplishment.title}</span>;
 
-    let dateJSX = null;
-    if (props.accomplishment.startDate) {
-        const startDate = new Date(props.accomplishment.startDate);
-        const startDateString = String(startDate.getMonth()).padStart(2, '0') + '/' + startDate.getFullYear();
-        let endDateString = 'Present';
-        if (props.accomplishment.endDate) {
-            const endDate = new Date(props.accomplishment.endDate);
-            endDateString = String(endDate.getMonth()).padStart(2, '0') + '/' + endDate.getFullYear();
-        }
-        dateJSX = startDateString + ' - ' + endDateString;
-    } else if (props.accomplishment.date) {
-        const date = new Date(props.accomplishment.date);
-        const dateString = String(date.getMonth()).padStart(2, '0') + '/' + date.getFullYear();
-        dateJSX = dateString;
-    }
+    const dateString = FormatDate(props.accomplishment);
 
     return (
         <div className="accomplishment item">
@@ -32,7 +19,7 @@ function Accomplishment(props) {
                     </div>
                 </div>
                 <div className="acc-date item-date">
-                    {dateJSX}
+                    {dateString}
                 </div>
             </div>
             <div className="acc-body item-summary">

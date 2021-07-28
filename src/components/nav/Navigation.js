@@ -32,13 +32,13 @@ function Navigation(props) {
             <h1>Resume Templator</h1>
             <div className="inputs">
                 <div className="input-group">
-                    <label for="templateSelector">Select Tempate</label>
+                    <label htmlFor="templateSelector">Select Tempate</label>
                     <select id="templateSelector" onChange={updateTemplate}>
                         {templateOptions}
                     </select>
                 </div>
                 <div className="input-group">
-                    <label for="templateFileInput">Upload Resume JSON</label>
+                    <label htmlFor="templateFileInput">Upload Resume JSON</label>
                     <input type="file" name="templateFileInput" onChange={updateFile} />
                 </div>
             </div>

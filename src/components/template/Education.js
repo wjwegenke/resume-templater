@@ -1,4 +1,5 @@
 import React from 'react';
+import FormatDate from './FormatDate';
 
 function Education(props) {
 
@@ -8,15 +9,7 @@ function Education(props) {
         );
     });
 
-
-    const startDate = new Date(props.education.startDate);
-    const startDateString = String(startDate.getMonth()).padStart(2, '0') + '/' + startDate.getFullYear();
-    let endDateString = 'Present';
-    if (props.education.endDate) {
-        const endDate = new Date(props.education.endDate);
-        endDateString = String(endDate.getMonth()).padStart(2, '0') + '/' + endDate.getFullYear();
-    }
-    const dateString = startDateString + ' - ' + endDateString;
+    const dateString = FormatDate(props.education);
 
     return (
         <div className="education item">

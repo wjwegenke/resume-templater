@@ -15,7 +15,7 @@ function About(props) {
             icon = faLinkedin;
         else if (network === 'github')
             icon = faGithub;
-        return (<AboutItem icon={icon} name={p.username} link={p.url} />);
+        return (<AboutItem key={`aboutItem${i}`} icon={icon} name={p.username} link={p.url} />);
     });
 
     return (

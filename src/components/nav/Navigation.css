@@ -63,6 +63,7 @@ nav .btn-icon {
 }
 
 nav .btn-icon:hover {
+  cursor: pointer;
   color: #ffaa00;
 }
 /*# sourceMappingURL=Navigation.css.map */

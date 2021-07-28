@@ -1,0 +1,241 @@
+.generic {
+  margin: 0;
+  color: #444;
+  border-top: 10px solid #077;
+}
+
+.generic a {
+  color: #444;
+  text-decoration: none;
+}
+
+.generic a:hover {
+  color: #077;
+}
+
+.generic header {
+  height: 1.7in;
+  padding: 0px 50px;
+}
+
+.generic header .header {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.generic header .header .header-label {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.generic header .header .header-label .header-name {
+  font-size: 3.5rem;
+  font-weight: bold;
+}
+
+.generic header .header .header-label .header-position {
+  font-size: 1.5rem;
+  font-weight: lighter;
+  color: #595959;
+}
+
+.generic header .header .header-image {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.generic header .header .header-image img {
+  border-radius: 50%;
+  overflow: hidden;
+  height: 132px;
+  width: 132px;
+  border: 2px solid #077;
+}
+
+.generic content {
+  padding: 0px 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.generic content aside {
+  width: 2.5in;
+  margin-right: 20px;
+}
+
+.generic content main {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.generic category {
+  margin-bottom: 20px;
+}
+
+.generic category .cat-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+}
+
+.generic category .cat-header .cat-icon {
+  font-size: 1.5rem;
+  margin-right: 5px;
+}
+
+.generic category .cat-header h1 {
+  font-size: 1.2rem;
+  font-weight: lighter;
+  color: #595959;
+}
+
+.generic category .cat-header:after {
+  content: "";
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  width: 70px;
+  border-bottom: 1px solid #077;
+}
+
+.generic category .icon {
+  color: #077;
+}
+
+.generic category section {
+  margin: 8px 0px;
+}
+
+.generic category section .sec-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.generic category section .sec-header .sec-label {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.generic category section .sec-header .sec-label .sec-title {
+  font-weight: bold;
+}
+
+.generic category section .sec-header .sec-label .sec-subtitle {
+  font-size: 0.9rem;
+  font-weight: lighter;
+  color: #595959;
+}
+
+.generic category section .sec-header .sec-date {
+  font-size: 0.9rem;
+  font-weight: lighter;
+  color: #595959;
+}
+
+.generic category section .sec-summary {
+  font-size: 1rem;
+}
+
+.generic category section .sec-subsummary {
+  font-size: 0.9rem;
+  font-weight: lighter;
+  color: #595959;
+}
+
+.generic category section .list-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 5px;
+}
+
+.generic category section .list-item .list-icon {
+  color: #036;
+  margin-right: 5px;
+  font-size: 1.2rem;
+}
+
+.generic category section .list-item .list-name {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.generic category .sec-bunch {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.generic category .sec-bunch .bunch-item {
+  font-size: 0.8rem;
+  font-weight: bold;
+  padding: 2px 10px;
+  margin: 2px;
+  margin-left: 0px;
+  border-radius: 100px;
+  color: #ddd;
+  background-color: #036;
+}
+/*# sourceMappingURL=Generic.css.map */

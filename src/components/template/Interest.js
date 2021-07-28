@@ -5,9 +5,12 @@ function Interest(props) {
 
     return (
         <div className="interest item">
-            <div className="int-icon">
-                <FontAwesomeIcon icon={props.icon} />
-            </div>
+            {props.icon ?
+                (<div className="int-icon">
+                    <FontAwesomeIcon icon={props.icon} />
+                </div>)
+                : null
+            }
             <div className="int-name item-name">
                 {props.interest.name}
             </div>

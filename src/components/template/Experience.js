@@ -1,16 +1,11 @@
 import React from 'react';
+import FormatDate from './FormatDate';
 
 function Experience(props) {
 
     const nameJSX = props.experience.website ? (<a href={props.experience.website} target="_blank" rel="noreferrer">{props.experience.name}</a>) : <span>{props.experience.name}</span>;
-    const startDate = new Date(props.experience.startDate);
-    const startDateString = String(startDate.getMonth()).padStart(2, '0') + '/' + startDate.getFullYear();
-    let endDateString = 'Present';
-    if (props.experience.endDate) {
-        const endDate = new Date(props.experience.endDate);
-        endDateString = String(endDate.getMonth()).padStart(2, '0') + '/' + endDate.getFullYear();
-    }
-    const dateJSX = startDateString + ' - ' + endDateString;
+    
+    const dateString = FormatDate(props.experience);
 
     return (
        <div className="experience item">
@@ -24,7 +19,7 @@ function Experience(props) {
                     </div>
                 </div>
                 <div className="exp-date item-date">
-                    {dateJSX}
+                    {dateString}
                 </div>
            </div>
            <div className="exp-body item-summary">
