@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/resume-templater/static/css/main.ee6e9b03.chunk.css",
+    "main.css": "/resume-templater/static/css/main.8b727a96.chunk.css",
     "main.js": "/resume-templater/static/js/main.91b56623.chunk.js",
     "main.js.map": "/resume-templater/static/js/main.91b56623.chunk.js.map",
     "runtime-main.js": "/resume-templater/static/js/runtime-main.5f73751f.js",
@@ -10,13 +10,13 @@
     "static/js/3.75f58007.chunk.js": "/resume-templater/static/js/3.75f58007.chunk.js",
     "static/js/3.75f58007.chunk.js.map": "/resume-templater/static/js/3.75f58007.chunk.js.map",
     "index.html": "/resume-templater/index.html",
-    "static/css/main.ee6e9b03.chunk.css.map": "/resume-templater/static/css/main.ee6e9b03.chunk.css.map",
+    "static/css/main.8b727a96.chunk.css.map": "/resume-templater/static/css/main.8b727a96.chunk.css.map",
     "static/js/2.6d58e891.chunk.js.LICENSE.txt": "/resume-templater/static/js/2.6d58e891.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.5f73751f.js",
     "static/js/2.6d58e891.chunk.js",
-    "static/css/main.ee6e9b03.chunk.css",
+    "static/css/main.8b727a96.chunk.css",
     "static/js/main.91b56623.chunk.js"
   ]
 }
