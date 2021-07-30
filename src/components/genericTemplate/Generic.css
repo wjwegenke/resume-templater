@@ -1,3 +1,7 @@
+.resume {
+  font-size: 1.1rem;
+}
+
 .generic {
   margin: 0;
   color: #444;
@@ -46,12 +50,12 @@
 }
 
 .generic header .header .header-label .header-name {
-  font-size: 3.5rem;
+  font-size: 3.5em;
   font-weight: bold;
 }
 
-.generic header .header .header-label .header-position {
-  font-size: 1.5rem;
+.generic header .header .header-label .header-title {
+  font-size: 1.5em;
   font-weight: lighter;
   color: #595959;
 }
@@ -80,7 +84,7 @@
   border: 2px solid #077;
 }
 
-.generic content {
+.generic .content {
   padding: 0px 20px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -91,22 +95,26 @@
           flex-direction: row;
 }
 
-.generic content aside {
+.generic .content aside {
   width: 2.5in;
   margin-right: 20px;
 }
 
-.generic content main {
+.generic .content main {
   -webkit-box-flex: 1;
       -ms-flex: 1;
           flex: 1;
 }
 
-.generic category {
+.generic .category {
   margin-bottom: 20px;
 }
 
-.generic category .cat-header {
+.generic .category:last-of-type {
+  margin-bottom: 0px;
+}
+
+.generic .category .cat-header {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -120,18 +128,18 @@
   position: relative;
 }
 
-.generic category .cat-header .cat-icon {
-  font-size: 1.5rem;
+.generic .category .cat-header .cat-icon {
+  font-size: 1.5em;
   margin-right: 5px;
 }
 
-.generic category .cat-header h1 {
-  font-size: 1.2rem;
+.generic .category .cat-header h1 {
+  font-size: 1.2em;
   font-weight: lighter;
   color: #595959;
 }
 
-.generic category .cat-header:after {
+.generic .category .cat-header:after {
   content: "";
   bottom: 0;
   left: 0;
@@ -140,15 +148,15 @@
   border-bottom: 1px solid #077;
 }
 
-.generic category .icon {
+.generic .category .icon {
   color: #077;
 }
 
-.generic category section {
+.generic .category section {
   margin: 8px 0px;
 }
 
-.generic category section .sec-header {
+.generic .category section .sec-header {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -158,39 +166,39 @@
           flex-direction: row;
 }
 
-.generic category section .sec-header .sec-label {
+.generic .category section .sec-header .sec-label {
   -webkit-box-flex: 1;
       -ms-flex: 1;
           flex: 1;
 }
 
-.generic category section .sec-header .sec-label .sec-title {
+.generic .category section .sec-header .sec-label .sec-title {
   font-weight: bold;
 }
 
-.generic category section .sec-header .sec-label .sec-subtitle {
-  font-size: 0.9rem;
+.generic .category section .sec-header .sec-label .sec-subtitle {
+  font-size: 0.9em;
   font-weight: lighter;
   color: #595959;
 }
 
-.generic category section .sec-header .sec-date {
-  font-size: 0.9rem;
+.generic .category section .sec-header .sec-date {
+  font-size: 0.9em;
   font-weight: lighter;
   color: #595959;
 }
 
-.generic category section .sec-summary {
-  font-size: 1rem;
+.generic .category section .sec-summary {
+  font-size: 1em;
 }
 
-.generic category section .sec-subsummary {
-  font-size: 0.9rem;
+.generic .category section .sec-subsummary {
+  font-size: 0.9em;
   font-weight: lighter;
   color: #595959;
 }
 
-.generic category section .list-item {
+.generic .category section .list-item {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -204,19 +212,19 @@
   margin-bottom: 5px;
 }
 
-.generic category section .list-item .list-icon {
+.generic .category section .list-item .list-icon {
   color: #036;
   margin-right: 5px;
-  font-size: 1.2rem;
+  font-size: 1.2em;
 }
 
-.generic category section .list-item .list-name {
+.generic .category section .list-item .list-name {
   -webkit-box-flex: 1;
       -ms-flex: 1;
           flex: 1;
 }
 
-.generic category .sec-bunch {
+.generic .category .sec-bunch {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -228,8 +236,8 @@
       flex-wrap: wrap;
 }
 
-.generic category .sec-bunch .bunch-item {
-  font-size: 0.8rem;
+.generic .category .sec-bunch .bunch-item {
+  font-size: 0.8em;
   font-weight: bold;
   padding: 2px 10px;
   margin: 2px;
@@ -237,5 +245,11 @@
   border-radius: 100px;
   color: #ddd;
   background-color: #036;
+}
+
+@media print {
+  .category, section {
+    page-break-inside: avoid;
+  }
 }
 /*# sourceMappingURL=Generic.css.map */

@@ -5,29 +5,29 @@
         "image": "https://avatars.githubusercontent.com/u/11546713?s=400&u=e7c823ee70f2d1a7fe4152a4cb92505fe47b16c9&v=4",
         "email": "warren.wegenke@gmail.com",
         "location": {
-          "city": "Sioux Falls",
-          "stateCode": "SD",
-          "postalCode": "57108"
+            "city": "Sioux Falls",
+            "stateCode": "SD",
+            "postalCode": "57108"
         },
         "profiles": [
-          {
-            "name": "Warren Wegenke",
-            "url": "https://www.linkedin.com/in/warrenwegenke",
-            "tooltip": "LinkedIn",
-            "icon": {
-                "style": "fab",
-                "name": "linkedin"
+            {
+                "name": "Warren Wegenke",
+                "url": "https://www.linkedin.com/in/warrenwegenke",
+                "tooltip": "LinkedIn",
+                "icon": {
+                    "style": "fab",
+                    "name": "linkedin"
+                }
+            },
+            {
+                "url": "https://github.com/wjwegenke",
+                "name": "wjwegenke",
+                "tooltip": "GitHub",
+                "icon": {
+                    "style": "fab",
+                    "name": "github"
+                }
             }
-          },
-          {
-            "url": "https://github.com/wjwegenke",
-            "name": "wjwegenke",
-            "tooltip": "GitHub",
-            "icon": {
-                "style": "fab",
-                "name": "github"
-            }
-          }
         ]
     },
     "categories": [
@@ -41,7 +41,7 @@
             "sections": [
                 {
                     "summary": [
-                        "I’m a full stack software engineer/web developer with 4+ years of experience. With a strong analytical mindset and a desire to learn continuously, I'm excited to solve new problems and to bring my skills and knowledge of computer science to Omnitech!"
+                        "Full stack software engineer with 4+ years of experience. Experienced as a tech lead and working with a team to solve problems and develop projects in an agile environment."
                     ]
                 }
             ]
@@ -61,7 +61,7 @@
                     "location": "Sioux Falls, SD",
                     "startDate": "2017-05-30",
                     "summary": [
-                        "I develop web and desktop applications for various South Dakota state agencies. I am heavily involved with every step of the software development life cycle from requirements gathering to database design to publishing. I am the primary developer responsible for maintaining over a dozen systems for the SD DANR."
+                        "Work closely with a SCRUM team to develop web and desktop applications for various South Dakota state agencies. Heavily involved with every step of the software development life cycle from requirements gathering to database design to deployment. Primary developer responsible for maintaining over a dozen systems for the SD DANR."
                     ]
                 },
                 {
@@ -72,7 +72,7 @@
                     "startDate": "2016-05-15",
                     "endDate": "2017-08-15",
                     "summary": [
-                        "As an intern I developed a web application to replace the South Dakota Department of Agriculture’s grain checkoff remittance paper process. I got involved with every aspect of the software development life cycle and was able to incorporate Elavon’s Converge payment system."
+                        "Developed a web application to replace the South Dakota Department of Agriculture’s grain checkoff remittance paper process. Got involved with every aspect of the software development life cycle and was able to incorporate Elavon’s Converge payment system."
                     ]
                 }
             ]
@@ -143,28 +143,28 @@
                     "date": "2021-05-10"
                 },
                 {
-                  "title": "Cyber Corp. Scholarship",
-                  "subtitle": "DSU",
-                  "startDate": "2014-08-20",
-                  "endDate": "2017-05-06"
+                    "title": "Cyber Corp. Scholarship",
+                    "subtitle": "DSU",
+                    "startDate": "2014-08-20",
+                    "endDate": "2017-05-06"
                 },
                 {
-                  "title": "Phi Eta Sigma Honor society",
-                  "subtitle": "DSU",
-                  "startDate": "2013-08-20",
-                  "endDate": "2017-05-06"
+                    "title": "Phi Eta Sigma Honor society",
+                    "subtitle": "DSU",
+                    "startDate": "2013-08-20",
+                    "endDate": "2017-05-06"
                 },
                 {
-                  "title": "Merit Champion Scholarship",
-                  "subtitle": "DSU",
-                  "startDate": "2012-08-20",
-                  "endDate": "2017-05-06"
+                    "title": "Merit Champion Scholarship",
+                    "subtitle": "DSU",
+                    "startDate": "2012-08-20",
+                    "endDate": "2017-05-06"
                 },
                 {
-                  "title": "DSU Presidents List",
-                  "subtitle": "DSU",
-                  "startDate": "2012-08-20",
-                  "endDate": "2017-05-06"
+                    "title": "DSU Presidents List",
+                    "subtitle": "DSU",
+                    "startDate": "2012-08-20",
+                    "endDate": "2017-05-06"
                 }
             ]
         },

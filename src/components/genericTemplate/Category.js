@@ -7,7 +7,7 @@ function Category(props) {
     const sectionsJSX = props.category.sections?.map((s, i) => <Section key={i} section={s} />);
 
     return (
-        <category>
+        <div className="category">
             <div className="cat-header">
                 <div className="cat-icon icon">
                     <FontAwesomeIcon icon={[props.category.icon.style || 'fas', props.category.icon.name]} />
@@ -15,7 +15,7 @@ function Category(props) {
                 <h1>{props.category.title}</h1>
             </div>
             {sectionsJSX}
-        </category>
+        </div>
     );
 }
 

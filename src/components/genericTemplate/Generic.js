@@ -4,9 +4,11 @@ import Category from './Category';
 import './Generic.css';
 
 function Generic(props) {
+    if (props.resume === null)
+        return <div>No resume</div>;
 
-    const asideJSX = props.resume.categories.filter(c => c.importance === "minor").map((c, i) => <Category key={i} category={c} />);
-    const mainJSX = props.resume.categories.filter(c => c.importance === "major").map((c, i) => <Category key={i} category={c} />);
+    const asideJSX = props.resume.categories?.filter(c => c.importance === "minor").map((c, i) => <Category key={i} category={c} />);
+    const mainJSX = props.resume.categories?.filter(c => c.importance === "major").map((c, i) => <Category key={i} category={c} />);
 
     const locationString = props.resume.personal.location.city + ', ' + props.resume.personal.location.stateCode + ' ' + props.resume.personal.location.postalCode
     const contactInfo = {
@@ -48,7 +50,7 @@ function Generic(props) {
             <header>
                 <Header personal={props.resume.personal} />
             </header>
-            <content>
+            <div className="content">
                 <aside>
                     {contactJSX}
                     {asideJSX}
@@ -56,7 +58,7 @@ function Generic(props) {
                 <main>
                     {mainJSX}
                 </main>
-            </content>
+            </div>
         </div>
     );
 }
