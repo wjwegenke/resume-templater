@@ -152,11 +152,36 @@
   color: #077;
 }
 
-.generic .category section {
+.generic .category .sections {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.generic .category .sections.row {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.generic .category .sections.row section {
+  margin-right: 16px;
+}
+
+.generic .category .sections.row section:last-of-type {
+  margin-right: 0px;
+}
+
+.generic .category .sections section {
   margin: 8px 0px;
 }
 
-.generic .category section .sec-header {
+.generic .category .sections section .sec-header {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -166,39 +191,39 @@
           flex-direction: row;
 }
 
-.generic .category section .sec-header .sec-label {
+.generic .category .sections section .sec-header .sec-label {
   -webkit-box-flex: 1;
       -ms-flex: 1;
           flex: 1;
 }
 
-.generic .category section .sec-header .sec-label .sec-title {
+.generic .category .sections section .sec-header .sec-label .sec-title {
   font-weight: bold;
 }
 
-.generic .category section .sec-header .sec-label .sec-subtitle {
+.generic .category .sections section .sec-header .sec-label .sec-subtitle {
   font-size: 0.9em;
   font-weight: lighter;
   color: #595959;
 }
 
-.generic .category section .sec-header .sec-date {
+.generic .category .sections section .sec-header .sec-date {
   font-size: 0.9em;
   font-weight: lighter;
   color: #595959;
 }
 
-.generic .category section .sec-summary {
+.generic .category .sections section .sec-summary {
   font-size: 1em;
 }
 
-.generic .category section .sec-subsummary {
+.generic .category .sections section .sec-subsummary {
   font-size: 0.9em;
   font-weight: lighter;
   color: #595959;
 }
 
-.generic .category section .list-item {
+.generic .category .sections section .list-item {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -209,16 +234,16 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-bottom: 5px;
+  margin: 5px 0px;
 }
 
-.generic .category section .list-item .list-icon {
+.generic .category .sections section .list-item .list-icon {
   color: #036;
   margin-right: 5px;
   font-size: 1.2em;
 }
 
-.generic .category section .list-item .list-name {
+.generic .category .sections section .list-item .list-name {
   -webkit-box-flex: 1;
       -ms-flex: 1;
           flex: 1;

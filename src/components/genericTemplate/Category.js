@@ -14,7 +14,9 @@ function Category(props) {
                 </div>
                 <h1>{props.category.title}</h1>
             </div>
-            {sectionsJSX}
+            <div className={"sections" + (props.category.flow === "row" ? " row" : "")}>
+                {sectionsJSX}
+            </div>
         </div>
     );
 }

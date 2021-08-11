@@ -32,6 +32,13 @@ function Generic(props) {
                     {
                         "icon": {
                             "style": "fas",
+                            "name": "phone-square"
+                        },
+                        "name": props.resume.personal.phone
+                    },
+                    {
+                        "icon": {
+                            "style": "fas",
                             "name": "at"
                         },
                         "name": props.resume.personal.email,
